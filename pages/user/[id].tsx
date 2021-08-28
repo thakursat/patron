@@ -11,16 +11,3 @@ export default function user() {
     </div>
   );
 }
-
-// export async function getServerSideProps(context) {
-//   const userDetails = fetch(`http://localhost:3000/abc`);
-//   console.log(userDetails)
-//   if (!userDetails) {
-//     return {
-//       notFound: true,
-//     }
-//   }
-//   return {
-//     props: {}, // will be passed to the page component as props
-//   };
-// }
